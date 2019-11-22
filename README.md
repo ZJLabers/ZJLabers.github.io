@@ -1,77 +1,60 @@
-# 毛毛虫_Wendy
+# [Start Bootstrap - Scrolling Nav](https://startbootstrap.com/template-overviews/scrolling-nav/)
 
-我的个人博客：<http://mmcwendy.info>，欢迎 Star 和 Fork。
+[Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/) is an unstyled one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## 概览
+## Preview
 
-<!-- vim-markdown-toc GFM -->
+[![Scrolling Nav Preview](https://startbootstrap.com/assets/img/templates/scrolling-nav.jpg)](https://blackrockdigital.github.io/startbootstrap-scrolling-nav/)
 
-* [效果预览](#效果预览)
-* [Fork 指南](#fork-指南)
-* [经验与思考](#经验与思考)
-* [致谢](#致谢)
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-scrolling-nav/)**
 
-<!-- vim-markdown-toc -->
+## Status
 
-## 效果预览
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-scrolling-nav/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-scrolling-nav.svg)](https://www.npmjs.com/package/startbootstrap-scrolling-nav)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-scrolling-nav.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-scrolling-nav)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-scrolling-nav/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-scrolling-nav)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-scrolling-nav/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-scrolling-nav?type=dev)
 
-**[在线预览 &rarr;](http://mmcwendy.info)**
+## Download and Installation
 
-![screenshot home](http://mmcwendy.info/assets/images/screenshots/home.png)
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/scrolling-nav/)
+* Install via npm: `npm i startbootstrap-scrolling-nav`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
 
-## Fork 指南
+## Usage
 
-Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
+### Basic Usage
 
-1. 正确设置项目名称与分支。
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
+### Advanced Usage
 
-2. 修改域名。
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。本人在 https://sg.godaddy.com 上购买的域名，第一次用，仅仅在CNAME添加了自己购买的域名，但是实际上还需要解析域名。详见[域名解析][5]
+You must have npm and Gulp installed globally on your machine in order to use these features.
 
-3. 修改配置。
+## Bugs and Issues
 
-   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 url、title、subtitle 和第三方评论模块的配置等。
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/scrolling-nav/).
 
-   **评论模块：** 目前支持 disqus、gitment 和 gitalk，选用其中一种就可以了，推荐使用 gitment。它们各自的配置指南链接在 \_config.yml 文件的 Comments 一节里都贴出来了，搭建过程
-[参见资料][6]
+## About
 
-   **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。我对该缺陷的记录见 [Issues#2][3]。
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-4. 删除我的文章与图片。
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-   如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加你自己的内容。
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-   * \_posts 文件夹中是我已发布的博客文章。
-   * \_drafts 文件夹中是我尚未发布的博客文章。
-   * \_wiki 文件夹中是我已发布的 wiki 页面。
-   * images 文件夹中是我的文章和页面里使用的图片。
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-5. 修改「关于」页面。
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息，包括 \_data 目录下的 skills.yml 和 social.yml 文件里的数据。
+## Copyright and License
 
-6. 增加博客阅读统计功能。
-   使用的是leancloud，参照的[博客来源][7]
-## 经验与思考
-
-* 因为偶然的机会知道github page可以自己建立博客，也很幸运的找到了很多 [模板][4]，github资源真是太丰富了。
-* 虽然有很好的模板，但是很多东西还是需要自己的理解，了解最基本的原理，避免走弯路。
-* 好好利用这些资源，记录知识，必定受益无穷。
-
-## 致谢
-
-本博客外观
-基于 [DONGChuan](http://dongchuan.github.io) 
-基于 [Zhuang Ma](http://mazhuang.org/)
-修改，非常感谢！
-
-[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
-[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
-[4]: http://jekyllthemes.org/
-[5]: https://www.zhihu.com/question/31377141
-[6]: https://imsun.net/posts/gitment-introduction/
-[7]: http://blog.csdn.net/u013553529/article/details/63357382
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/gh-pages/LICENSE) license.
